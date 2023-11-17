@@ -5,13 +5,6 @@ It helps visually impaired people have smooth navigation both indoors and outdoo
 and providing audible directions and related information. It helps the user to know more about circumstances while moving forward 
 and can also avoid dangerous situations like bumping into people, objects, or any other type of hindrance.
 
-## Motivation behind making this app
-It aims to make the visually impaired feel empowered and more independent. 
-Since the ears are the second-best sensory organs for visually impaired people after the eyes, providing most of the 
-information to them through audio signals would make their lives easier and more empowered. 
-The Android app-based solution can directly work on a smartphone and hence is a good option. 
-It is reliable, portable, and economical and no extra devices other than the smartphone are needed by the visually impaired.
-
 ## Salient Features 
 1. Obstacle Avoidance:- This part prevents the user from bumping into obstacles and guides them via voice commands. 
 This will help the visually impaired user to move safely. The camera of the phone opens up and objects are continuously detected. 
