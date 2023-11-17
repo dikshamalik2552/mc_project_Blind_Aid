@@ -36,6 +36,9 @@
         <activity android:name="org.tensorflow.lite.examples.Blind_aid.FindObjects" />
         <activity android:name=".DetectObjectByName" />
         <activity android:name=".ObstacleAvoidance"/>
+        <activity android:name=".Main"/>
+        <activity android:name=".AskAnything"/>
+        <activity android:name=".GiveFeedback"/>
 
 </application>
 </manifest>

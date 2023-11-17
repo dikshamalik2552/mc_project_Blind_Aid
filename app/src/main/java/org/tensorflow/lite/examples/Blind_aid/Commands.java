@@ -4,6 +4,8 @@ public class Commands {
     public static final String FINDOBJECT = "find object";
     public static final String DETECTOBJECT = "detect object";
     public static final String AVOIDOBSTACLE = "avoid obstacle";
+    public static final String ASKANYTHING = "ask anything";
+    public static final String GIVEFEEDBACK = "give feedback";
 
     //Objects
     public static final String BOTTLE = "bottle";

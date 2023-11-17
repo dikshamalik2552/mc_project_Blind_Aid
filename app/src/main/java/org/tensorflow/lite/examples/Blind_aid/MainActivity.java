@@ -41,8 +41,8 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
             @Override
             public void onInit(int status) {
                 tts.speak("Welcome to Blind Aid! What can I do for you today? " +
-                                " Find object? Avoid obstacle? or Detect object? " +
-                                "TAP ON THE UPPER HALF OF THE SCREEN TO SPEAK",
+                                " Find object? Avoid obstacle? Ask anything? or give feedback?" +
+                                " TAP ON THE UPPER HALF OF THE SCREEN TO SPEAK",
                         TextToSpeech.QUEUE_FLUSH, null);
             }
         });
@@ -143,6 +143,18 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
                 Toast.makeText(getBaseContext(), "Avoiding Obstacle", Toast.LENGTH_SHORT).show();
                 Intent intenta = new Intent(MainActivity.this, ObstacleAvoidance.class);
                 startActivity(intenta);
+                break;
+
+            case Commands.ASKANYTHING:
+                Toast.makeText(getBaseContext(), "Ask Anything", Toast.LENGTH_SHORT).show();
+                Intent intentam = new Intent(MainActivity.this, AskAnything.class);
+                startActivity(intentam);
+                break;
+
+            case Commands.GIVEFEEDBACK:
+                Toast.makeText(getBaseContext(), "Give feedback", Toast.LENGTH_SHORT).show();
+                Intent intentgf = new Intent(MainActivity.this, GiveFeedback.class);
+                startActivity(intentgf);
                 break;
 
             default:

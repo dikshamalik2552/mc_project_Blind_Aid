@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "534292887906",
+    "project_id": "blind-aid-9c922",
+    "storage_bucket": "blind-aid-9c922.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534292887906:android:a3e2293814c219a429143b",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.detection"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOCYR1WebHXtIRi0TlvssOPx8c6LRTGlw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
